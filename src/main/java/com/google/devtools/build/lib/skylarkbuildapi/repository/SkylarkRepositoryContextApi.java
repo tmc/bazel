@@ -148,7 +148,7 @@ public interface SkylarkRepositoryContextApi<RepositoryFunctionExceptionT extend
           "Generates a new file using a <code>template</code>. Every occurrence in "
               + "<code>template</code> of a key of <code>substitutions</code> will be replaced by "
               + "the corresponding value. The result is written in <code>path</code>. An optional"
-              + "<code>executable</code> argument (default to true) can be set to turn on or off"
+              + "<code>executable</code> argument (default to true) can be set to turn on or off "
               + "the executable bit.",
       useLocation = true,
       parameters = {
